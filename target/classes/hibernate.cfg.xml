@@ -27,7 +27,9 @@
 
         <property name="hibernate.hbm2ddl.auto">create</property>
 
-        <mapping class="com.hibernateTest.firstHiber.StudentH"/>
-       <mapping class="com.hibernateTest.firstHiber.Address"/>
+         <mapping class="com.hibernateTest.firstHiber.Student"/>
+          <mapping class="com.hibernateTest.firstHiber.Question"/>
+           <mapping class="com.hibernateTest.firstHiber.Answear"/>
+      
     </session-factory>
 </hibernate-configuration>
