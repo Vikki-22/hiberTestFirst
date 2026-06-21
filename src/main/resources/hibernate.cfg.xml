@@ -25,11 +25,19 @@
 
         <property name="hibernate.show_sql">true</property>
 
-        <property name="hibernate.hbm2ddl.auto">create</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
 
          <mapping class="com.hibernateTest.firstHiber.Student"/>
           <mapping class="com.hibernateTest.firstHiber.Question"/>
            <mapping class="com.hibernateTest.firstHiber.Answear"/>
-      
+           <mapping class="com.hibernateTest.firstHiber.QuesOneToMany"/>
+           <mapping class="com.hibernateTest.firstHiber.AnsOneToMany"/>
+            <mapping class="com.hibernateTest.Day2.PersonOneToOne"/>
+          <mapping class="com.hibernateTest.Day2.PassportOnetoOne"/>
+           <mapping class="com.hibernateTest.Day2.DepartmentManytoOne"/>
+          <mapping class="com.hibernateTest.Day2.EmployeeManytoOne"/>
+           <mapping class="com.hibernateTest.Day2.Student"/>
+          <mapping class="com.hibernateTest.Day2.Course"/>
+          
     </session-factory>
 </hibernate-configuration>
